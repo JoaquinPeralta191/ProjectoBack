@@ -100,3 +100,5 @@ productManager.updateProduct(1, { price: 12.99 });
 console.log(productManager.getProducts());
 productManager.deleteProduct(1);
 console.log(productManager.getProducts());
+
+module.exports = ProductManager;
